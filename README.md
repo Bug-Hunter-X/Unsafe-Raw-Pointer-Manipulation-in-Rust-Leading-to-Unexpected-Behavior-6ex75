@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: unsafe raw pointer manipulation. The `bug.rs` file shows code that directly modifies the memory pointed to by a raw pointer obtained using `as_mut_ptr()`.  This approach, while providing low-level control, lacks memory safety guarantees.   The `bugSolution.rs` file offers a safer alternative.
